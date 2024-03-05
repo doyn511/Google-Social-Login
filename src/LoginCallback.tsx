@@ -1,5 +1,11 @@
+import { HashLoader } from "react-spinners";
+
 function LoginCallback() {
-  return <div>LoginCallback</div>;
+  return (
+    <div>
+      <HashLoader />
+    </div>
+  );
 }
 
 export default LoginCallback;
