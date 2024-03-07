@@ -1,0 +1,17 @@
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: auto;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.login-img {
+  width: 250px;
+  height: auto;
+}
