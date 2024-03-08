@@ -1,19 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import App from "./App";
 import Complete from "./Complete";
-import LoginCallback from "./LoginCallback";
+import Login from "./Login";
 
 function Router() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/login-callback" element={<LoginCallback />} />
-          <Route path="/complete" element={<Complete />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/complete" element={<Complete />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
